@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+/* Banner Section styles */
+.banner {
+  background-image: url(images/banner/banner3.png);
+  background-repeat: no-repeat;
+  padding: 215px 230px 230px 845px;
+}
+.banner-content {
+  text-align: right;
+  color: #ffffff;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 65px;
+  margin-bottom: 24px;
+}
+.banner-description {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+.btn-primary {
+  font-weight: 600;
+  font-size: 20px;
+  color: #005fac;
+  border: 0;
+  border-radius: 5px;
+  padding: 20px;
+}
+/* About Section Styles */
+.about {
+  margin: 130px 322px 130px 206px;
+}
+.contents {
+  display: flex;
+  gap: 80px;
+}
+.about-content {
+  padding: 239px 0 84px 0;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+}
+.section-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+.about-list li {
+  list-style: none;
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+  margin-top: 8px;
+}
+i{
+  color: #16D887;
+}
+/* My plan Section Styles */
+.my-plan {
+  margin: 0 230px 130px 230px;
+  text-align: center;
+}
+.container {
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
+}
+.content-title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #151414;
+}
+.content-description {
+  font-weight: 500;
+  font-size: 25px;
+  color: #737272;
+  margin-top: 16px;
+}
+.my-plan-banner {
+  padding: 60px 617px 60px 64px;
+  text-align: left;
+  background-image: url(images/gradient1.png), url(images/watch.png);
+  margin-top: 130px;
+}
+.my-plan-banner-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  margin-bottom: 23px;
+}
+/* Footer section style */
+.footer {
+  display: flex;
+  gap: 200px;
+  padding: 130px 230px;
+  background-color: #151414;
+}
+.title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #f8f8f8;
+}
+.description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  margin-top: 16px;
+  margin-bottom: 14px;
+}
+.contacts {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.icons a {
+  text-decoration: none;
+  margin-right: 17px;
+}
+.form-title {
+  font-weight: 600;
+  font-size: 25px;
+  color: #ffffff;
+  margin-bottom: 31px;
+}
+input {
+  width: 325px;
+  padding: 21px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+.footer .btn-primary {
+  background: #005fac;
+  border-radius: 8px;
+  color: #ffffff;
+}
